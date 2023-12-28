@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webipedia</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen bg-gradient-to-b from-fuchsia-950 to-indigo-950 text-white">
+    <header id="navbar" class="w-11/12 flex justify-between items-center m-7 fixed z-50">
+        <h1 class="text-3xl font-bold uppercase hover:scale-105 transition-all duration-200"><a href="#">Webipedia</a></h1>
+        <nav>
+            <ul class="flex justify-between font-medium uppercase">
+                <li class="mr-3 ml-3 p-2 rounded-3xl hover:bg-slate-100 hover:-translate-x-2 hover:text-black transition-all duration-200 active"><a href="#">Home</a></li>
+                <li class="mr-3 ml-3 p-2 rounded-3xl hover:bg-slate-100 hover:-translate-x-2 hover:text-black transition-all duration-200"><a href="#">Products</a></li>
+                <li class="mr-3 ml-3 p-2 rounded-3xl hover:bg-slate-100 hover:-translate-x-2 hover:text-black transition-all duration-200"><a href="#">Shop</a></li>
+                <li class="mr-3 ml-3 p-2 rounded-3xl hover:bg-slate-100 hover:-translate-x-2 hover:text-black transition-all duration-200"><a href="#">About</a></li>
+                <li class="mr-3 ml-3 p-2 rounded-3xl hover:bg-slate-100 hover:-translate-x-2 hover:text-black transition-all duration-200"><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <section id="main" class="w-full h-screen overflow-hidden relative flex justify-center items-center after:content-[''] after:h-24 after:w-full after:absolute after:bottom-0 after:bg-gradient-to-t from-fuchsia-950 to-transparent">
+        <img src="/Scroll Project/img/stars1.png" id="stars" class="absolute w-full h-screen object-cover">
+        <h2 id="Webipedia" class="text-xl font-bold uppercase -translate-y-44">Webipedia</h2>
+        <img src="/Scroll Project/img/moon2.png" id="moon" class="absolute w-full h-screen mix-blend-screen translate-y-7 object-cover">
+        <img src="/Scroll Project/img/mountains3.png" id="mountains3" class="absolute w-full h-screen object-cover">
+        <img src="/Scroll Project/img/mountains4.png" id="mountains4" class="absolute w-full h-screen object-cover">
+        <img src="/Scroll Project/img/river5.png" id="river" class="absolute w-full h-screen object-cover">
+        <img src="/Scroll Project/img/boat6.png" id="boat" class="absolute w-full h-screen object-cover">
+        <img src="/Scroll Project/img/mountains7.png" id="mountains7" class="absolute w-full h-screen object-cover">
+
+    </section>
+
+    <div id="content" class="p-8 h-screen overflow-hidden">
+        <h2 class="text-2xl font-bold m-5">Lorem ipsum dolor sit amet.</h2>
+        <p class="m-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. A tempora libero vitae, quos incidunt necessitatibus perferendis impedit ipsam omnis eius aspernatur, itaque doloremque possimus. Velit accusamus quisquam earum culpa. Expedita quaerat placeat laudantium, unde omnis impedit incidunt, recusandae, explicabo vero culpa animi repudiandae voluptatum aliquam. A ex commodi totam inventore. Iure repellendus maxime tempora tenetur corrupti quas error numquam. Molestias at qui porro, tenetur delectus suscipit. Minus, repellendus ratione. Numquam non, vero alias corrupti, iure aut nesciunt autem ipsa magni molestias doloribus excepturi accusantium illo, modi quo! Perspiciatis, dignissimos magnam magni sed incidunt corrupti quis fuga voluptas non modi expedita?</p><br>
+        <p class="m-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. A tempora libero vitae, quos incidunt necessitatibus perferendis impedit ipsam omnis eius aspernatur, itaque doloremque possimus. Velit accusamus quisquam earum culpa. Expedita quaerat placeat laudantium, unde omnis impedit incidunt, recusandae, explicabo vero culpa animi repudiandae voluptatum aliquam. A ex commodi totam inventore. Iure repellendus maxime tempora tenetur corrupti quas error numquam. Molestias at qui porro, tenetur delectus suscipit. Minus, repellendus ratione. Numquam non, vero alias corrupti, iure aut nesciunt autem ipsa magni molestias doloribus excepturi accusantium illo, modi quo! Perspiciatis, dignissimos magnam magni sed incidunt corrupti quis fuga voluptas non modi expedita?</p><br>
+        <p class="m-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. A tempora libero vitae, quos incidunt necessitatibus perferendis impedit ipsam omnis eius aspernatur, itaque doloremque possimus. Velit accusamus quisquam earum culpa. Expedita quaerat placeat laudantium, unde omnis impedit incidunt, recusandae, explicabo vero culpa animi repudiandae voluptatum aliquam. A ex commodi totam inventore. Iure repellendus maxime tempora tenetur corrupti quas error numquam. Molestias at qui porro, tenetur delectus suscipit. Minus, repellendus ratione. Numquam non, vero alias corrupti, iure aut nesciunt autem ipsa magni molestias doloribus excepturi accusantium illo, modi quo! Perspiciatis, dignissimos magnam magni sed incidunt corrupti quis fuga voluptas non modi expedita?</p><br>
+    </div>
+    <button
+    id="scroller"
+    class="bg-white text-black hidden fixed right-6 bottom-4 font-medium py-2 px-1 rounded-3xl border-none w-10 h-10 m-1 hover:bg-indigo-600 hover:tracking-wider hover:text-white hover:transition-all duration-300"
+  >
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+    
+    
+    <script src="./main.js"></script>
+</body>
+</html>
